@@ -12,3 +12,6 @@
 Commands
 
 set : The set command is a built in linux shell comm
+How to add a directory to the PATH environment variables:
+* Adding path to the begininging of the path -
+    export PATH=$PATH"""::
