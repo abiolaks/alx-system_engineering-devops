@@ -23,3 +23,10 @@ Global variables are also called environment variables which will be available t
 Local variables are visible only within the block of code. local is a keyword which is used to declare the local variables. in a function, a local variable has meaning only within that funciton block.
 
 local variables are only availble in the current shell. set command without option will display a list of all variable(including environment and functions
+
+set : when used without option display list of local variables, functions and global variable.
+
+unset : unassign the value of a variable
+
+* Variables that are exported are referred to as environment variables. setting and exporting is usually done in one step.
+    export VARNAME="value"
